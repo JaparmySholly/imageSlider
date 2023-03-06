@@ -12,7 +12,8 @@ html, body {
 }
 
 .header {
-  padding: 5px;
+  padding:10px;
+  margin: auto;
   background-color: rgba(132, 123, 123, 0.309);
   padding: 15px 20px;
 }
@@ -21,7 +22,8 @@ html, body {
   text-align: center;
   margin: 5px;
   box-sizing: border-box;
-  padding: 30px 20px;
+  padding: 30px px;
+  font-size: small;
   color: rgb(3, 3, 3);
   text-align: center;  
 }
@@ -97,7 +99,7 @@ html, body {
   display: inline-block;
   width: 1.1em;
   height: 1.1em;
-  background-color: white;
+  /* background-color: white; */
   margin: 1em 1em;
   border-radius: 50%;
   transition: all 0.2s ease-out;
@@ -105,4 +107,10 @@ html, body {
 
 .slider-button:hover {
   transform: scale(1.2);
+}
+
+.footer{
+  text-align: center;
+  font-size: smaller;
+  font-weight: lighter;
 }
